@@ -58,3 +58,8 @@ body{
     font-size: 1rem;
     margin-top: 20px;
 }
+#ChatLog{
+    font-size: 1rem;
+    margin-top: 20px;
+    background-color: rgb(34, 34, 30);
+}

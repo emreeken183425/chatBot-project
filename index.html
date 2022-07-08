@@ -15,7 +15,7 @@
     <h1>Ask your Question?</h1>
     <h2>Yeah,ask some Question</h2>
     <div class="input">
-        <input type="text" id="userBox" onkeydown="if(event.keycode==13){talk()} " placeholder="Type your Question" >
+        <input type="text" id="userBox" onkeydown="if(event.key === 'Enter'){talk()} " placeholder="Type your Question" >
     </div>
     <p id="ChatLog" >Answer Appearing Hear</p>
 </div>
