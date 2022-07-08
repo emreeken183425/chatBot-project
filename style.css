@@ -14,3 +14,47 @@ body{
     align-items: center;
     justify-content:center;
 }
+.glass{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(83, 70, 70);
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    border: 2px solid plum ;
+    background-clip: padding-box;
+    line-height: 1.5;
+    box-shadow: 10px 10px 10px rgb(106, 124, 98) ;
+    transform: translateY(-5%);
+}
+
+.glass h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.glass h2{
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.input{
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    margin-top: 40px;
+    background-color:rgb(185, 190, 190);
+    text-align: center;
+}
+#userBox{
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    margin-top: 25px;
+    background-color:wheat;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 15px;
+}
+.glass p{
+    font-size: 1rem;
+    margin-top: 20px;
+}
